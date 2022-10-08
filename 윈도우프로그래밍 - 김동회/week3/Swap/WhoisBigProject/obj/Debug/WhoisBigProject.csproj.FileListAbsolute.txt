@@ -1,0 +1,9 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\WhoisBigProject\bin\Debug\WhoisBigProject.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\WhoisBigProject\bin\Debug\WhoisBigProject.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\WhoisBigProject\bin\Debug\WhoisBigProject.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\WhoisBigProject\obj\Debug\WhoisBigProject.MainForm.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\WhoisBigProject\obj\Debug\WhoisBigProject.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\WhoisBigProject\obj\Debug\WhoisBigProject.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\WhoisBigProject\obj\Debug\WhoisBigProject.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\WhoisBigProject\obj\Debug\WhoisBigProject.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\WhoisBigProject\obj\Debug\WhoisBigProject.pdb

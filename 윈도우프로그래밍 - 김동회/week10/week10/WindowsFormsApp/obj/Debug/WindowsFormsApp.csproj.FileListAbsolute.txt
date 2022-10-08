@@ -1,0 +1,11 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week10\week10\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week10\week10\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week10\week10\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week10\week10\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojAssemblyReference.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week10\week10\WindowsFormsApp\obj\Debug\WindowsFormsApp.InputForm.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week10\week10\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week10\week10\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week10\week10\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week10\week10\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week10\week10\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week10\week10\WindowsFormsApp\obj\Debug\WindowsFormsApp.ReceivedForm.resources

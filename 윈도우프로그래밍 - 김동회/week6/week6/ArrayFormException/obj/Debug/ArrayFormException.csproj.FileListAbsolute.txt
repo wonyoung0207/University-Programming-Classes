@@ -1,0 +1,10 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week6\week6\ArrayFormException\bin\Debug\ArrayFormException.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week6\week6\ArrayFormException\bin\Debug\ArrayFormException.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week6\week6\ArrayFormException\bin\Debug\ArrayFormException.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week6\week6\ArrayFormException\obj\Debug\ArrayFormException.csprojAssemblyReference.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week6\week6\ArrayFormException\obj\Debug\ArrayFormException.MainForm.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week6\week6\ArrayFormException\obj\Debug\ArrayFormException.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week6\week6\ArrayFormException\obj\Debug\ArrayFormException.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week6\week6\ArrayFormException\obj\Debug\ArrayFormException.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week6\week6\ArrayFormException\obj\Debug\ArrayFormException.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week6\week6\ArrayFormException\obj\Debug\ArrayFormException.pdb

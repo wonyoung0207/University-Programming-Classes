@@ -1,0 +1,10 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week14\week14\FileStreamProject1\bin\Debug\FileStreamProject1.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week14\week14\FileStreamProject1\bin\Debug\FileStreamProject1.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week14\week14\FileStreamProject1\bin\Debug\FileStreamProject1.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week14\week14\FileStreamProject1\obj\Debug\FileStreamProject1.csprojAssemblyReference.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week14\week14\FileStreamProject1\obj\Debug\FileStreamProject1.Form1.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week14\week14\FileStreamProject1\obj\Debug\FileStreamProject1.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week14\week14\FileStreamProject1\obj\Debug\FileStreamProject1.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week14\week14\FileStreamProject1\obj\Debug\FileStreamProject1.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week14\week14\FileStreamProject1\obj\Debug\FileStreamProject1.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week14\week14\FileStreamProject1\obj\Debug\FileStreamProject1.pdb

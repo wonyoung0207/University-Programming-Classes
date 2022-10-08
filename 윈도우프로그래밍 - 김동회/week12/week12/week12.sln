@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotepadWindowApp", "NotepadWindowApp\NotepadWindowApp.csproj", "{74C7EE60-386E-409F-8510-F1A45FFF5674}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolStripProject", "MenuProject\ToolStripProject.csproj", "{D2FDBF0A-FFD1-47FD-AD8D-AA3BB60EE6B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74C7EE60-386E-409F-8510-F1A45FFF5674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C7EE60-386E-409F-8510-F1A45FFF5674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C7EE60-386E-409F-8510-F1A45FFF5674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C7EE60-386E-409F-8510-F1A45FFF5674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2FDBF0A-FFD1-47FD-AD8D-AA3BB60EE6B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2FDBF0A-FFD1-47FD-AD8D-AA3BB60EE6B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2FDBF0A-FFD1-47FD-AD8D-AA3BB60EE6B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2FDBF0A-FFD1-47FD-AD8D-AA3BB60EE6B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B5658F5-17D2-4388-AAAF-2A0038E76CC7}
+	EndGlobalSection
+EndGlobal

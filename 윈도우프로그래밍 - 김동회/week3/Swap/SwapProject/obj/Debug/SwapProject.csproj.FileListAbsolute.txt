@@ -1,0 +1,10 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\SwapProject\bin\Debug\SwapProject.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\SwapProject\bin\Debug\SwapProject.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\SwapProject\bin\Debug\SwapProject.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\SwapProject\obj\Debug\SwapProject.csprojAssemblyReference.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\SwapProject\obj\Debug\SwapProject.MainForm.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\SwapProject\obj\Debug\SwapProject.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\SwapProject\obj\Debug\SwapProject.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\SwapProject\obj\Debug\SwapProject.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\SwapProject\obj\Debug\SwapProject.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\SwapProject\obj\Debug\SwapProject.pdb

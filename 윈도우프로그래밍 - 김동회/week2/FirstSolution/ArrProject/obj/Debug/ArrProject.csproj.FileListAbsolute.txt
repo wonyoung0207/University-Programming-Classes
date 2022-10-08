@@ -1,0 +1,10 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\ArrProject\bin\Debug\ArrProject.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\ArrProject\bin\Debug\ArrProject.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\ArrProject\bin\Debug\ArrProject.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\ArrProject\obj\Debug\ArrProject.csprojAssemblyReference.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\ArrProject\obj\Debug\ArrProject.frmArr.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\ArrProject\obj\Debug\ArrProject.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\ArrProject\obj\Debug\ArrProject.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\ArrProject\obj\Debug\ArrProject.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\ArrProject\obj\Debug\ArrProject.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\ArrProject\obj\Debug\ArrProject.pdb

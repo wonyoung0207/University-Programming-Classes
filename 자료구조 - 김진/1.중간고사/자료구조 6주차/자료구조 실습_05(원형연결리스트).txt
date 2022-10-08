@@ -1,0 +1,42 @@
+//  원형 연결 리스트에 원소가 존재하는 지 계산
+   public int isEmpty() {
+
+      if (head == null) {
+         return 0; // 원소가 존재하지 않으면
+      }
+      else {
+         return 1; // 원소가 존재하면
+      }
+
+
+   }
+   // 원소 x 가 몇 번째 원소인지를 리턴하라
+   public int searchNode(int x) {
+      int cnt=0;
+      if (head == null) {
+         return 0; // 원소가 없다면 0 리턴
+      }
+      else {
+         CListNode p = head;
+         do 
+         { 
+            p = p.clink;
+            cnt++;
+         } while (p.data != x);
+         return cnt;
+      }
+   }
+
+// 노드의 개수를 계산
+	   public int getNoofNode(){
+	      int cnt=0;
+	      //채워라
+	      
+	      CListNode p = head;
+	      do {
+	         p = p.clink;
+	         cnt++;
+	      } while (p.clink != head);
+
+	      return cnt;
+	   }

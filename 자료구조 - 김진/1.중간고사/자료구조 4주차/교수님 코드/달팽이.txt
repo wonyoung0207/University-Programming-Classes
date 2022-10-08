@@ -1,0 +1,59 @@
+static void init4(int arr[][],int m,int n) {
+
+		int direction = 1; //시계방향이냐 반대방향이냐. 
+
+	    int cols = 0; 
+
+	    int rows = -1; 
+
+	    int num = 1; 
+
+	    int numCount = 5; 
+
+	    boolean isInfinite = true; 
+
+	    while (isInfinite) { 
+
+	      for (int i = 0; i < numCount; i++) { 
+
+	        rows += direction; 
+
+	        arr[cols][rows] = num++; 
+
+	     } 
+
+	     numCount--; 
+
+	     if (numCount < 0) { 
+
+	       isInfinite = false; 
+
+	       } else { 
+
+	       for (int j = 0; j < numCount; j++) { 
+
+	         cols += direction; 
+
+	         arr[cols][rows] = num++; 
+
+	      } 
+
+	   } 
+
+	   direction *= (-1); 
+
+	} 
+
+	for (int i = 0; i < n; i++) { 
+
+	  for (int j = 0; j < m; j++) { 
+
+	    System.out.print(arr[i][j] + "\t"); 
+
+	 } 
+
+	 System.out.println(" "); 
+
+	} 
+
+	} 

@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html, charset=EUC-KR">
+<title> request 예제 html 파일 </title>
+</head>
+<body>
+<h2> 학생 정보 입력 </h2>
+<form method="post" action="웹7주차_이론1_request_jsp.jsp">
+<!-- method는 폼의 데이터가 서버로 제출될 때 사용되는 http 메소드를 명시 ,크게 get과 post로 나뉨-->
+<!-- get(서버로 전달), post(폼 데이터를 별로도 첨부하여 서버로 전달) -->
+<!-- action은 request.jsp라는 파일로 폼에서 입력받은 값을 넘겨주는 역할을 한다.  -->
+<!-- 따라서 html파일 말고도 별도의 jsp 파일을 만들어 거기서 폼 데이터를 처리할 수 있다.  -->
+
+
+	성명 : 	<input type="text" name="name"><p>
+	학번 :	<input type="text" name="studentNum"><p>
+	성별 :	남자 <input type="radio" name="sex" value="men" checked>
+			여자 <input type="radio" name="sex" value="woman"><p>
+	국적 :	<select name="country">
+				<option selected value="대한민국">대한민국 </option>
+				<option value="일본">일본</option>
+				<option value="중국">중국</option>
+				<option value="터키">터키 </option>
+				<option value="대만">대만 </option>
+			</select><p>
+	<input type="submit" value="보내기">
+			
+
+</form>
+</body>
+</html>

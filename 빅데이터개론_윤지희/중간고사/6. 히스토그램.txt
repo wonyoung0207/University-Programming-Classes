@@ -1,0 +1,32 @@
+히스토그램
+
+g_hist + geom_histogram(breaks = breaks, color = "black", fill = "white") +
+ 	geom_vline(xintercept = 0.9, color = "blue") + -> 0.9에 파란실선 x축에 세로로 만듬
+ 	stat_bin(breaks = breaks, geom = "text", aes(label = ..count..), vjust = -1.5)  + ->
+ y축의 값을 라벨링 해준다. breaks는 반드시 앞에랑 동일하게 써야함 , vjust를 이용해 그래프와 텍스트 사이 조절(음수가 될수록 멀어진다.)
+ 	scale_y_continuous(limits = c(0, 30)) + ->y의 리미트를 30까지 
+ 	theme_hc() +##그래프의 테마를 바꿀 수 있다.
+ 	ggtitle("2018 KBO OPS Histogram")
+
+
+=========================================================================
+
+breaks <- seq(from = 0.4, to = 1.15, by = 0.05)
+
+
+# position = "dodge"
+DF %>% ggplot(aes(H, fill = team)) +
+ geom_histogram(position = "dodge") +
+ scale_x_continuous(breaks = seq(0, 220, 10)) + 
+ scale_y_continuous(breaks = seq(0, 800, 20))
+
+-----------------------------------------
+# color와 fill
+breaks <- seq(from = 0.4, to = 1.15, by = 0.05)
+g_hist + geom_histogram(breaks = breaks, color = "black", fill = "white")
+
+# 막대 라벨링
+g_hist + geom_histogram(breaks = breaks, color = "black", fill = "white") +
+ geom_vline(xintercept = 0.9, color = "blue") +
+ stat_bin(breaks = breaks, geom = "text", aes(label = ..count..), vjust = -1.5)  +
+ scale_y_continuous(limits = c(0, 30))

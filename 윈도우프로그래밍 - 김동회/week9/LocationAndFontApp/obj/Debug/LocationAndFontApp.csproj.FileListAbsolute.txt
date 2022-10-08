@@ -1,0 +1,10 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week9\LocationAndFontApp\bin\Debug\LocationAndFontApp.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week9\LocationAndFontApp\bin\Debug\LocationAndFontApp.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week9\LocationAndFontApp\bin\Debug\LocationAndFontApp.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week9\LocationAndFontApp\obj\Debug\LocationAndFontApp.MainForm.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week9\LocationAndFontApp\obj\Debug\LocationAndFontApp.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week9\LocationAndFontApp\obj\Debug\LocationAndFontApp.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week9\LocationAndFontApp\obj\Debug\LocationAndFontApp.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week9\LocationAndFontApp\obj\Debug\LocationAndFontApp.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week9\LocationAndFontApp\obj\Debug\LocationAndFontApp.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week9\LocationAndFontApp\obj\Debug\LocationAndFontApp.csprojAssemblyReference.cache

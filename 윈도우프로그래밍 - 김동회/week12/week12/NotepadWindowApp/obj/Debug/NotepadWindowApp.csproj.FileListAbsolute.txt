@@ -1,0 +1,10 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week12\week12\NotepadWindowApp\bin\Debug\NotepadWindowApp.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week12\week12\NotepadWindowApp\bin\Debug\NotepadWindowApp.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week12\week12\NotepadWindowApp\bin\Debug\NotepadWindowApp.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week12\week12\NotepadWindowApp\obj\Debug\NotepadWindowApp.csprojAssemblyReference.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week12\week12\NotepadWindowApp\obj\Debug\NotepadWindowApp.NoteForm.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week12\week12\NotepadWindowApp\obj\Debug\NotepadWindowApp.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week12\week12\NotepadWindowApp\obj\Debug\NotepadWindowApp.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week12\week12\NotepadWindowApp\obj\Debug\NotepadWindowApp.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week12\week12\NotepadWindowApp\obj\Debug\NotepadWindowApp.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week12\week12\NotepadWindowApp\obj\Debug\NotepadWindowApp.pdb

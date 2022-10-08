@@ -1,0 +1,10 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\MonthProject\bin\Debug\MonthProject.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\MonthProject\bin\Debug\MonthProject.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\MonthProject\bin\Debug\MonthProject.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\MonthProject\obj\Debug\MonthProject.frmMonth.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\MonthProject\obj\Debug\MonthProject.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\MonthProject\obj\Debug\MonthProject.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\MonthProject\obj\Debug\MonthProject.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\MonthProject\obj\Debug\MonthProject.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\MonthProject\obj\Debug\MonthProject.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\MonthProject\obj\Debug\MonthProject.csprojAssemblyReference.cache

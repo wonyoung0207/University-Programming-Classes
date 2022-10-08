@@ -1,0 +1,22 @@
+# 인자 변경을 통한 outlier 꾸미기 -> 별모양으로 outlier를 바꿔줌
+g_box + geom_boxplot(outlier.color = "red", outlier.shape = "★", outlier.size = 7) +
+ theme(axis.title.x = element_text(family = fonts()[1])) +  # 한글 설정. 
+ theme_wsj() # ggthemes
+
+
+
+# outlier에 라벨링
+# is_outlier => 이상치를 판단해서 true 또는 false로 돌려줌
+##outlier 값을 찾아주는 것 -> 1사분기보다 작거나, 3사분기보다 크면 outlier이다.
+
+is_outlier <- function(x) { # x는 숫자형 벡터
+  return(x < quantile(x, 0.25) - 1.5 * IQR(x) | x > quantile(x, 0.75) + 1.5 * IQR(x))
+}
+
+
+dat <- HR_2017 %>%
+ group_by(team) %>% 
+ mutate(is_outlier = ifelse(is_outlier(HR), batter_name, NA))
+
+ dat %>% show()
+ dat %>% filter(!is.na(is_outlier))

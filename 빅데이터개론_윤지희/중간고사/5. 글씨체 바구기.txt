@@ -1,0 +1,8 @@
+DF %>% ggplot(aes(x = team, y = R, fill = team)) + # ¶Ç´Â color
+ geom_boxplot() +
+ ggtitle("Team º° R(µæÁ¡) boxplot") +
+ theme(plot.title = element_text(family = fonts()[1], size = 25, face = "bold", color = "maroon2", hjust = 0.5), 
+       axis.title.x = element_text(family = fonts()[1], size = 15,face = "bold", color = "red"),
+       axis.title.y = element_text(family = fonts()[1], size = 20,face = "bold", color = "blue"),
+       axis.text.x = element_text(family = fonts()[1], size = 12, angle = 90, face = "bold"),
+       axis.text.y = element_text(family = fonts()[1], size = 12, angle = 90, face = "bold"))

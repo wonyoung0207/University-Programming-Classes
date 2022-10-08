@@ -1,0 +1,10 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week9\FormEventProject\bin\Debug\FormEventProject.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week9\FormEventProject\bin\Debug\FormEventProject.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week9\FormEventProject\bin\Debug\FormEventProject.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week9\FormEventProject\obj\Debug\FormEventProject.csprojAssemblyReference.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week9\FormEventProject\obj\Debug\FormEventProject.EventForm.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week9\FormEventProject\obj\Debug\FormEventProject.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week9\FormEventProject\obj\Debug\FormEventProject.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week9\FormEventProject\obj\Debug\FormEventProject.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week9\FormEventProject\obj\Debug\FormEventProject.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week9\FormEventProject\obj\Debug\FormEventProject.pdb

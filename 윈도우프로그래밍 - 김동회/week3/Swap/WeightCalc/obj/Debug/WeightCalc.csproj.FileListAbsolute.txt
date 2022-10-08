@@ -1,0 +1,10 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\WeightCalc\bin\Debug\WeightCalc.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\WeightCalc\bin\Debug\WeightCalc.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\WeightCalc\bin\Debug\WeightCalc.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\WeightCalc\obj\Debug\WeightCalc.csprojAssemblyReference.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\WeightCalc\obj\Debug\WeightCalc.MainForm.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\WeightCalc\obj\Debug\WeightCalc.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\WeightCalc\obj\Debug\WeightCalc.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\WeightCalc\obj\Debug\WeightCalc.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\WeightCalc\obj\Debug\WeightCalc.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week3\Swap\WeightCalc\obj\Debug\WeightCalc.pdb

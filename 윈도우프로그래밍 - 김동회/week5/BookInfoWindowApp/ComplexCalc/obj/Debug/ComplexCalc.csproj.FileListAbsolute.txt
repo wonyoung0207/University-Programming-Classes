@@ -1,0 +1,10 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\ComplexCalc\bin\Debug\ComplexCalc.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\ComplexCalc\bin\Debug\ComplexCalc.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\ComplexCalc\bin\Debug\ComplexCalc.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\ComplexCalc\obj\Debug\ComplexCalc.csprojAssemblyReference.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\ComplexCalc\obj\Debug\ComplexCalc.MainForm.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\ComplexCalc\obj\Debug\ComplexCalc.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\ComplexCalc\obj\Debug\ComplexCalc.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\ComplexCalc\obj\Debug\ComplexCalc.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\ComplexCalc\obj\Debug\ComplexCalc.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\ComplexCalc\obj\Debug\ComplexCalc.pdb

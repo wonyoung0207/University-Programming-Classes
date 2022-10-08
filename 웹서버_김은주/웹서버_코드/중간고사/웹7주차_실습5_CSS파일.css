@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body{
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	position:relative;
+}
+.menu{
+	background:black;
+	padding : 10px 10px;
+	position:fixed;
+	
+}
+.home{
+	color:white;
+	text-decoration : none;
+}
+
+h2{
+	background:lightblue;
+	font-size : 20px;
+	text-align:center;
+	padding:400px;
+	margin:0;
+
+}
+h3{
+	text-align:center;
+
+}
+
+
+

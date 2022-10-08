@@ -1,0 +1,10 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\FractionProgram\bin\Debug\FractionProgram.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\FractionProgram\bin\Debug\FractionProgram.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\FractionProgram\bin\Debug\FractionProgram.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\FractionProgram\obj\Debug\FractionProgram.csprojAssemblyReference.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\FractionProgram\obj\Debug\FractionProgram.FractionForm.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\FractionProgram\obj\Debug\FractionProgram.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\FractionProgram\obj\Debug\FractionProgram.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\FractionProgram\obj\Debug\FractionProgram.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\FractionProgram\obj\Debug\FractionProgram.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\FractionProgram\obj\Debug\FractionProgram.pdb

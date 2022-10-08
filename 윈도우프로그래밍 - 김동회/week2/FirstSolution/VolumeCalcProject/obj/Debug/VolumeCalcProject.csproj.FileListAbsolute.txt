@@ -1,0 +1,10 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\VolumeCalcProject\bin\Debug\VolumeCalcProject.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\VolumeCalcProject\bin\Debug\VolumeCalcProject.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\VolumeCalcProject\bin\Debug\VolumeCalcProject.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\VolumeCalcProject\obj\Debug\VolumeCalcProject.csprojAssemblyReference.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\VolumeCalcProject\obj\Debug\VolumeCalcProject.frmVolumCalc.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\VolumeCalcProject\obj\Debug\VolumeCalcProject.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\VolumeCalcProject\obj\Debug\VolumeCalcProject.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\VolumeCalcProject\obj\Debug\VolumeCalcProject.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\VolumeCalcProject\obj\Debug\VolumeCalcProject.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\VolumeCalcProject\obj\Debug\VolumeCalcProject.pdb

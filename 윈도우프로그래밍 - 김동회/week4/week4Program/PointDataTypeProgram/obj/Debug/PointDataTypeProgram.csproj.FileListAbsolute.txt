@@ -1,0 +1,10 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PointDataTypeProgram\bin\Debug\PointDataTypeProgram.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PointDataTypeProgram\bin\Debug\PointDataTypeProgram.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PointDataTypeProgram\bin\Debug\PointDataTypeProgram.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PointDataTypeProgram\obj\Debug\PointDataTypeProgram.csprojAssemblyReference.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PointDataTypeProgram\obj\Debug\PointDataTypeProgram.PointForm.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PointDataTypeProgram\obj\Debug\PointDataTypeProgram.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PointDataTypeProgram\obj\Debug\PointDataTypeProgram.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PointDataTypeProgram\obj\Debug\PointDataTypeProgram.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PointDataTypeProgram\obj\Debug\PointDataTypeProgram.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PointDataTypeProgram\obj\Debug\PointDataTypeProgram.pdb

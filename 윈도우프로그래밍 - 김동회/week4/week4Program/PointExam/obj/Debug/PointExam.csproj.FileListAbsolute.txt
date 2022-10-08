@@ -1,0 +1,10 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PointExam\bin\Debug\PointExam.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PointExam\bin\Debug\PointExam.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PointExam\bin\Debug\PointExam.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PointExam\obj\Debug\PointExam.csprojAssemblyReference.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PointExam\obj\Debug\PointExam.PointForm.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PointExam\obj\Debug\PointExam.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PointExam\obj\Debug\PointExam.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PointExam\obj\Debug\PointExam.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PointExam\obj\Debug\PointExam.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PointExam\obj\Debug\PointExam.pdb

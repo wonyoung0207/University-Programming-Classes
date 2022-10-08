@@ -1,0 +1,9 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week6\week6\ThreadExamProject\bin\Debug\ThreadExamProject.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week6\week6\ThreadExamProject\bin\Debug\ThreadExamProject.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week6\week6\ThreadExamProject\bin\Debug\ThreadExamProject.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week6\week6\ThreadExamProject\obj\Debug\ThreadExamProject.MainForm.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week6\week6\ThreadExamProject\obj\Debug\ThreadExamProject.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week6\week6\ThreadExamProject\obj\Debug\ThreadExamProject.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week6\week6\ThreadExamProject\obj\Debug\ThreadExamProject.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week6\week6\ThreadExamProject\obj\Debug\ThreadExamProject.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week6\week6\ThreadExamProject\obj\Debug\ThreadExamProject.pdb

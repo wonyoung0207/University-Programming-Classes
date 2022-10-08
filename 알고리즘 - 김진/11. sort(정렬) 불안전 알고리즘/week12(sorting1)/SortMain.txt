@@ -1,0 +1,37 @@
+
+
+import java.util.*;
+public class SortMain {
+
+	public static void main(String[] args) {
+		
+		//정렬된 값
+		/*int[] a =new int[1000000];
+		for(int i=0; i<a.length; i++){
+			a[i]=i+1;
+		} */ 
+		
+			
+		// 랜덤 값 
+		int[] a = new int [100000];
+		for(int i=0; i<a.length; i++){
+
+			a[i]=(int)(Math.random()*100+1);
+		}
+		
+
+		try{
+			long start = System.currentTimeMillis();
+			Sorting.quickSort(a);
+			long end = System.currentTimeMillis();
+			long diff= end - start;
+			System.out.println(diff);
+			
+		} catch (Exception e){
+			System.out.println("An exception occurs");
+		}
+		
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\BookInfoWindowApp\bin\Debug\BookInfoWindowApp.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\BookInfoWindowApp\bin\Debug\BookInfoWindowApp.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\BookInfoWindowApp\bin\Debug\BookInfoWindowApp.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\BookInfoWindowApp\obj\Debug\BookInfoWindowApp.csprojAssemblyReference.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\BookInfoWindowApp\obj\Debug\BookInfoWindowApp.MainForm.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\BookInfoWindowApp\obj\Debug\BookInfoWindowApp.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\BookInfoWindowApp\obj\Debug\BookInfoWindowApp.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\BookInfoWindowApp\obj\Debug\BookInfoWindowApp.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\BookInfoWindowApp\obj\Debug\BookInfoWindowApp.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\BookInfoWindowApp\obj\Debug\BookInfoWindowApp.pdb

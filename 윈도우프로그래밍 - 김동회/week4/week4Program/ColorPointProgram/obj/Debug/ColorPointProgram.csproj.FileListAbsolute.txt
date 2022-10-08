@@ -1,0 +1,10 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\ColorPointProgram\bin\Debug\ColorPointProgram.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\ColorPointProgram\bin\Debug\ColorPointProgram.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\ColorPointProgram\bin\Debug\ColorPointProgram.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\ColorPointProgram\obj\Debug\ColorPointProgram.csprojAssemblyReference.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\ColorPointProgram\obj\Debug\ColorPointProgram.ColorPointForm.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\ColorPointProgram\obj\Debug\ColorPointProgram.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\ColorPointProgram\obj\Debug\ColorPointProgram.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\ColorPointProgram\obj\Debug\ColorPointProgram.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\ColorPointProgram\obj\Debug\ColorPointProgram.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\ColorPointProgram\obj\Debug\ColorPointProgram.pdb

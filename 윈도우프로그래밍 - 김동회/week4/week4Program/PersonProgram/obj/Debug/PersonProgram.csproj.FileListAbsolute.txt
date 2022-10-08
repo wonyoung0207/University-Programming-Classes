@@ -1,0 +1,10 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PersonProgram\bin\Debug\PersonProgram.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PersonProgram\bin\Debug\PersonProgram.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PersonProgram\bin\Debug\PersonProgram.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PersonProgram\obj\Debug\PersonProgram.csprojAssemblyReference.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PersonProgram\obj\Debug\PersonProgram.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PersonProgram\obj\Debug\PersonProgram.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PersonProgram\obj\Debug\PersonProgram.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PersonProgram\obj\Debug\PersonProgram.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PersonProgram\obj\Debug\PersonProgram.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week4\week4Program\PersonProgram\obj\Debug\PersonProgram.PersonForm.resources

@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html, charset=EUC-KR">
+<title> request 예제2 html 파일 </title>
+</head>
+<body>
+<h2> 학생 정보 입력 </h2>
+<form method="post" action="웹7주차_이론2_request2_jsp.jsp">
+	학번 : <input type="text" name="studentNum"><p>
+	전공 : <select name="major" multiple>
+	<!-- 여러가지를 선택할수 있도록 함, 여러개 선택시 배열로 저장 -->
+				<option SELECTED value="전산과"> 전산과 </option>
+				<option value="국문과"> 국문과</option>
+				<option value="기계 "> 기계 </option>
+				<option value="자유전공과"> 자유전공과</option>
+			</select><p>
+	<input type="submit" value="보내기">
+
+</form>
+</body>
+</html>

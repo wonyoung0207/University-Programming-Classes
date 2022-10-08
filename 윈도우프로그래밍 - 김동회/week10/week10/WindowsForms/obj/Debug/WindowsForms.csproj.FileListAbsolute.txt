@@ -1,0 +1,11 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week10\week10\WindowsForms\bin\Debug\WindowsForms.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week10\week10\WindowsForms\bin\Debug\WindowsForms.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week10\week10\WindowsForms\bin\Debug\WindowsForms.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week10\week10\WindowsForms\obj\Debug\WindowsForms.csprojAssemblyReference.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week10\week10\WindowsForms\obj\Debug\WindowsForms.MainForm.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week10\week10\WindowsForms\obj\Debug\WindowsForms.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week10\week10\WindowsForms\obj\Debug\WindowsForms.SubFrom.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week10\week10\WindowsForms\obj\Debug\WindowsForms.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week10\week10\WindowsForms\obj\Debug\WindowsForms.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week10\week10\WindowsForms\obj\Debug\WindowsForms.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week10\week10\WindowsForms\obj\Debug\WindowsForms.pdb

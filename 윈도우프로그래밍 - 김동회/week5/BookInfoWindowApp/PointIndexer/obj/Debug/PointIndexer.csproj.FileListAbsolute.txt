@@ -1,0 +1,10 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\PointIndexer\bin\Debug\PointIndexer.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\PointIndexer\bin\Debug\PointIndexer.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\PointIndexer\bin\Debug\PointIndexer.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\PointIndexer\obj\Debug\PointIndexer.MainForm.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\PointIndexer\obj\Debug\PointIndexer.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\PointIndexer\obj\Debug\PointIndexer.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\PointIndexer\obj\Debug\PointIndexer.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\PointIndexer\obj\Debug\PointIndexer.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\PointIndexer\obj\Debug\PointIndexer.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\PointIndexer\obj\Debug\PointIndexer.csprojAssemblyReference.cache

@@ -1,0 +1,10 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week13\week13\AdControlWIndowApp\bin\Debug\AdControlWIndowApp.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week13\week13\AdControlWIndowApp\bin\Debug\AdControlWIndowApp.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week13\week13\AdControlWIndowApp\bin\Debug\AdControlWIndowApp.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week13\week13\AdControlWIndowApp\obj\Debug\AdControlWIndowApp.adControlForm.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week13\week13\AdControlWIndowApp\obj\Debug\AdControlWIndowApp.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week13\week13\AdControlWIndowApp\obj\Debug\AdControlWIndowApp.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week13\week13\AdControlWIndowApp\obj\Debug\AdControlWIndowApp.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week13\week13\AdControlWIndowApp\obj\Debug\AdControlWIndowApp.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week13\week13\AdControlWIndowApp\obj\Debug\AdControlWIndowApp.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week13\week13\AdControlWIndowApp\obj\Debug\AdControlWIndowApp.csprojAssemblyReference.cache

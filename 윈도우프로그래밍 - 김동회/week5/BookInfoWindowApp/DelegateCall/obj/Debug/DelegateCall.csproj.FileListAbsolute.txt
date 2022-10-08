@@ -1,0 +1,10 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\DelegateCall\obj\Debug\DelegateCall.csprojAssemblyReference.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\DelegateCall\obj\Debug\DelegateCall.MainForm.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\DelegateCall\obj\Debug\DelegateCall.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\DelegateCall\obj\Debug\DelegateCall.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\DelegateCall\obj\Debug\DelegateCall.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\DelegateCall\bin\Debug\DelegateCall.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\DelegateCall\bin\Debug\DelegateCall.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\DelegateCall\bin\Debug\DelegateCall.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\DelegateCall\obj\Debug\DelegateCall.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week5\BookInfoWindowApp\DelegateCall\obj\Debug\DelegateCall.pdb

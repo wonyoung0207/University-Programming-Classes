@@ -1,0 +1,12 @@
+C:\Users\82102\source\repos\week11\DialogApp\bin\Debug\DialogApp.exe.config
+C:\Users\82102\source\repos\week11\DialogApp\bin\Debug\DialogApp.exe
+C:\Users\82102\source\repos\week11\DialogApp\bin\Debug\DialogApp.pdb
+C:\Users\82102\source\repos\week11\DialogApp\obj\Debug\DialogApp.csprojAssemblyReference.cache
+C:\Users\82102\source\repos\week11\DialogApp\obj\Debug\DialogApp.UserDialog1Form.resources
+C:\Users\82102\source\repos\week11\DialogApp\obj\Debug\DialogApp.Properties.Resources.resources
+C:\Users\82102\source\repos\week11\DialogApp\obj\Debug\DialogApp.UserDialog2Form.resources
+C:\Users\82102\source\repos\week11\DialogApp\obj\Debug\DialogApp.UserDialogMain.resources
+C:\Users\82102\source\repos\week11\DialogApp\obj\Debug\DialogApp.csproj.GenerateResource.cache
+C:\Users\82102\source\repos\week11\DialogApp\obj\Debug\DialogApp.csproj.CoreCompileInputs.cache
+C:\Users\82102\source\repos\week11\DialogApp\obj\Debug\DialogApp.exe
+C:\Users\82102\source\repos\week11\DialogApp\obj\Debug\DialogApp.pdb

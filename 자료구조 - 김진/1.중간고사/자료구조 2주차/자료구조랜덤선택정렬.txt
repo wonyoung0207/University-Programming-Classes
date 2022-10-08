@@ -1,0 +1,36 @@
+
+
+package test1;
+import java.util.Scanner;
+
+public class sort {
+
+	public static void main(String[] args) {
+		
+		int[] data = new int[5];
+		int swap = 0;    //임시저장소
+		
+		for(int i = 0; i < data.length; i++) {
+			data[i] = (int)(Math.random() * 30);  // 30까지 랜덤으로 data.length 갯수만큼 출력
+			System.out.println("정렬 전" + data[i]);
+		}
+
+		
+		for(int i = 0;i < data.length; i++) {
+			for(int j = i + 1; j < data.length; j++) {
+				if(data[i] > data[j]) {   //오름차순은 >, 내림차순은 <
+					
+					swap = data[i];
+					data[i] = data[j];
+					data[j] = swap;
+					
+				}
+			}
+		}
+		
+		for(int i = 0; i < data.length; i++) {
+			System.out.println(data[i] + "  ");
+			
+		}
+	}
+}

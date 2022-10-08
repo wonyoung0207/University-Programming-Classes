@@ -1,0 +1,10 @@
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\CircleVolumeProject\bin\Debug\CircleVolumeProject.exe.config
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\CircleVolumeProject\bin\Debug\CircleVolumeProject.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\CircleVolumeProject\bin\Debug\CircleVolumeProject.pdb
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\CircleVolumeProject\obj\Debug\CircleVolumeProject.csprojAssemblyReference.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\CircleVolumeProject\obj\Debug\CircleVolumeProject.frmCircleVolume.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\CircleVolumeProject\obj\Debug\CircleVolumeProject.Properties.Resources.resources
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\CircleVolumeProject\obj\Debug\CircleVolumeProject.csproj.GenerateResource.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\CircleVolumeProject\obj\Debug\CircleVolumeProject.csproj.CoreCompileInputs.cache
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\CircleVolumeProject\obj\Debug\CircleVolumeProject.exe
+C:\Users\82102\Desktop\Wy\윈도우프로그래밍 저장공간\week2\FirstSolution\CircleVolumeProject\obj\Debug\CircleVolumeProject.pdb
