@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<meta charset="UTF-8">
+<title>MQTT Monitoring Service</title>
+<style>
+	li{ list-style: none;
+		padding-left: 0;
+	}
+</style>
+<script src="/socket.io/socket.io.js"></script><!-- 소켓 기능을 가져오는 곳  -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script><!-- Jquery를 가져오는 곳 -->
+<script>
+	var socket = io.connect();/* io로 소켓을 가져옴  */
+	var timer = null;/* 3초마다 받아올수 있도록 타이머 생성  */
+	$(document).ready(function(){
+		socket.on("socket_up_author", function(data){//socket_up_temp 이벤트가 수신되면 실행된다. 
+			data = JSON.parse(data);//JSON 형식으로 데이터 받아옴 
+			$(".mqttlist_author").html('<li>' + data.author +'</li>');/*html파일에 id가 "mqttlist_temp"인 곳에 데이터 추가해줌  */
+		});
+		socket.on("socket_up_title", function(data){
+			data = JSON.parse(data);
+			$(".mqttlist_title").html('<li>'+data.title +'</li>');
+		});
+
+		socket.on("socket_up_type", function(data){
+			data = JSON.parse(data);
+			$(".mqttlist_type").html('<li>'+ data.type +'</li>');
+		});
+		socket.on("socket_up_color", function(data){//버튼 색상 변경 
+			$("#color").css("color",data);
+		});
+
+		//타이머 해놓고 일정 간격으로 함수 호출 -> 함수에서 www.js의 socket.on 을 실행 
+		//-> socket.on 에서 DB의 테이블에서 가장 최근 정보를 가져와, MQTT.html의 해당이벤트 발생 socket으로 전송 
+		if(timer==null){//3초간격으로 timer_1 함수를 실행시킴 
+			timer = window.setInterval("timer_1()", 5000);
+		}
+	});
+	
+	function timer_1(){
+		// socket_evt_temp 라는 이벤트를 발생시키는 곳
+		socket.emit("socket_evt_update", JSON.stringify({}));/* www.js 소켓으로 socket_evt_temp 이벤트가 발생했다고 알람 */
+	}
+	function button_on(){//버튼 색상을 변경하기 위한 함수 
+		var color = ["red","blue","yellow","white"];
+		var r = Math.floor(Math.random() * 4);//0~3 의 난수를 발생
+
+		socket.emit("socket_evt_bnt", color[r]);//color 배열의 r 인덱스를 리턴 
+	}
+
+</script>
+
+</head>
+<body>
+MQTT Mornitoring Service
+	<div id="msg">
+		<div id="mqtt_logs">
+			<table border="1">
+				<tr><h3>책 정보를 출력합니다.</h3></tr>
+				<tr><th>작가</th><td><ul class="mqttlist_title"></ul></td></ul></tr>
+				<tr><th>제목</th><td><ul class="mqttlist_author"></ul></td></ul></tr>
+				<tr><th>분류타입</td><td><ul class="mqttlist_type"></ul></td></ul></tr>
+				<tr><td><button id="color" onclick="button_on()"><b>Color Change Start</b></button></td></tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
+

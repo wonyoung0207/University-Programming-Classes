@@ -1,0 +1,214 @@
+#!/usr/bin/env node
+//메인문이라고 보면 된다. -> app.js는 요청과 응답을 하기위해서 구현한 것임 
+/**
+ * Module dependencies.
+ */
+//app.js를 사용해서 서버를 초기화 하는 부분
+ var app = require('../app');
+ var debug = require('debug')('iotserver:server');
+ var http = require('http');
+ 
+ /**
+  * Get port from environment and store in Express.    
+  */
+ 
+ var port = normalizePort(process.env.PORT || '3000');//30분 단위로 될수있게 설정 
+ app.set('port', port);
+ 
+ /**
+  * Create HTTP server.
+  */
+ 
+ var server = http.createServer(app);
+ 
+ // Connect Mongo DB -> mongodb에 접속
+ var mongoDB = require("mongodb").MongoClient;
+ //브로커 서버 아이피(해당 컴퓨터 아이피)
+ var url = "mongodb://127.0.0.1:27017/IoTDB";//mongodb의 테이블 이름과 같아야하고, 27017은 고유 포트번호이다. 
+ var dbObj = null;
+ mongoDB.connect(url, function(err, db){//mongoDB에 연결되면
+   dbObj = db;//
+   console.log("DB connect");
+ });
+ 
+ /**
+  * MQTT subscriber (MQTT Server connection & Read resource data)
+  */
+ var mqtt = require("mqtt");//브로커를 설정함 
+ var client = mqtt.connect("mqtt://127.0.0.1")//자기 자신 로컬 호스트로 작성해야 함
+ 
+ // 접속에 성공하면, 3가지 토픽을 구독.
+ //client.on("발생 이벤트","이벤트 헨들러");//connection 하고나면 구독해야함 
+ client.on("connect", function(){
+   client.subscribe("author");//작가 구독
+   console.log("Subscribing author");//콘솔창에 잘 구독했다고 출력해주는 역할 
+   client.subscribe("title");//타이틀 구독
+   console.log("Subscribing title");
+   client.subscribe("type");//책 종류 구독 
+   console.log("Subscribing type");
+
+ })
+
+// MQTT 응답 메세지 수신시 동작 -> 클라이언트가 메세지 수신시 
+//구독한 데이터가 응답이 왔을경우
+ client.on("message", function(topic, message){//topic과 value값이 전달됨
+   console.log(topic+ ": " + message.toString()); // 수신한 메세지 Topic 출력
+   var obj = JSON.parse(message); // 수신한 메세지의 데이터를 obj 저장, Json파일을 띄워줌 -> 몽고db에 필요함
+   obj.create_at = new Date(); // 현재 날짜 데이터를 obj에 추가함.obj의 형식은 JSON 파일이다. 
+   //JSON 파일은 키와 데이터로 이루어진 hashmap 이다. -> 키값과 데이터가 한쌍이다. -> 키를 가져오면 데이터 알 수 있음 
+   console.log(obj);//이것을 몽고db에 저장하면 됨
+ 
+   // send the received data to MongoDB
+   // 수신한 메세지를 Mongo DB에 저장 -> topic
+   if (topic == "author"){ // 만약 토픽이 작가라면,
+    //MongoDB에 센서 데이터 저장
+     var Book_author  = dbObj.collection("Book_author"); // Book_author 이름을 가진 테이블 collection 선택
+     Book_author.save(obj, function(err, result){//result에는 작가의 정보가 저장되어있다. 
+       //작가 테이블 collection에 obj(작가 데이터) 저장
+       if (err){//에러 났을 경우
+         console.log(err);
+       }else{//에러가 안났을경우 저장된 데이터(매개변수로 받은 result)를 콘솔에 출력
+         console.log(JSON.stringify(result));
+       }		
+     });	
+   }else if (topic == "title"){ // 만약 토픽이 책제목 이라면,
+     var Book_title  = dbObj.collection("Book_title"); // Book_title 이름을 갖은 collection 선택
+     Book_title.save(obj, function(err, result){ // collection에 책이름 데이터 저장
+       if (err){
+         console.log(err);
+       }else{
+         console.log(JSON.stringify(result));
+       }		
+     });
+   }else if (topic == "type"){ // 만약 토픽이 책타입 이라면,
+     var Book_type  = dbObj.collection("Book_type"); // Book_type 이름을 갖은 collection 선택
+     Book_type.save(obj, function(err, result){ // collection에 책타입 데이터 저장
+       if (err){
+         console.log(err);
+       }else{
+         console.log(JSON.stringify(result));
+       }		
+     });
+   }
+ });
+
+
+  
+ // get data from MongDB and then send it to HTML page using socket
+ // Mongo DB에서 최근 데이터 불러와서, HTML 페이지에 업데이트
+ // 소켓 : DB의 데이터를 HTML 페이지에 업로드 하기위해 사용
+ //소켓을 사용한 데이터 전달 --> html page
+ var io = require("socket.io")(server);//소켓을 가져와서 서버와 연결
+ //소켓을 열어둬서 html 파일이 접근할 수 잇도록 함
+ io.on("connection", function(socket){ //연결이 되면 function 수행
+  //HTML 페이지에서 "socket_evt_update" 이벤트가 발생하면 소켓을 통해서 www.js 에 알린다. 
+  // HTML페이지로 전송할때 이벤트 이름(온도,습도,미세먼지) 들 달리해서 데이터를 보낸다. 
+   socket.on("socket_evt_update", function(data){//연결된 소켓에서 socket_evt_update 이벤트가 발생하면 function 실행 
+    //db에 접속하여(dbobj) 저장되어 있는 테이블을 선택
+     var author = dbObj.collection("Book_author"); // temperature 라는 이름의 collection 선택
+     var title = dbObj.collection("Book_title"); // humidity 라는 이름의 collection 선택
+     var type = dbObj.collection("Book_type"); // pm_value 라는 이름의 collection 선택
+
+     // 책 작가 데이터
+     // collection에서 가장 최근 데이터 정렬-> 하나의 데이터만 불러옴 -> 배열로 만듬
+     // id로 정렬하는데 거꾸로 정렬해서 가장(최근)마지막으로 들어온 데이터 1개의 정보를 배열형식으로 가져온다.
+     author.find({}).sort({_id:-1}).limit(1).toArray(function(err, results){//배열이 result에 저장됨
+       if(!err){//에러가 아니면 소켓에 데이터를 담아서 다시 MQTT.html로 보낸다 
+         console.log(results[0]);//DB에서 찾은 temp 데이터중 가장최근의 데이터(result)에서 key값만 콘솔에 출력 
+         socket.emit("socket_up_author", JSON.stringify(results[0]));//JSON 으로 상대편 html로 emit:전달한다.
+       }
+     });
+
+     // 책 제목 데이터
+     title.find({}).sort({_id:-1}).limit(1).toArray(function(err, results){
+       // collection에서 가장 최근 데이터 정렬-> 하나의 데이터만 불러옴 -> 배열로 만듬
+       if(!err){
+         console.log(results[0]);
+         socket.emit("socket_up_title", JSON.stringify(results[0]));
+       }
+     });
+
+     // 책타입 데이터
+     type.find({}).sort({_id:-1}).limit(1).toArray(function(err, results){
+       // collection에서 가장 최근 데이터 정렬-> 하나의 데이터만 불러옴 -> 배열로 만듬
+       if(!err){
+         console.log(results[0]);
+         socket.emit("socket_up_type", JSON.stringify(results[0]));
+       }
+     });
+   });
+
+
+   //MQTT.HTML 페이지에서 버튼이 눌리면, MQTT.HTML에 있는 함수에서 해당 socket.on() 의 "socket_evt_bnt" 이벤트를 발생시킴 
+   socket.on("socket_evt_bnt", function(data){//socket_evt_bnt 이벤트(버튼눌리면) 발생시 실행됨
+
+    console.log("Change Color : ", data);//콘솔에 변경될 색상 출력 
+    socket.emit("socket_up_color", data);//socket에 변경될 색상 전달 
+    
+   });
+ });
+ 
+ 
+ /**
+  * Listen on provided port, on all network interfaces.
+  */
+ server.listen(port);
+ server.on('error', onError);
+ server.on('listening', onListening);
+ 
+ /**
+  * Normalize a port into a number, string, or false.
+  */
+ function normalizePort(val) {
+   var port = parseInt(val, 10);
+   if (isNaN(port)) {
+     // named pipe
+     return val;
+   }
+   if (port >= 0) {
+     // port number
+     return port;
+   }
+   return false;
+ }
+ 
+ /**
+  * Event listener for HTTP server "error" event.
+  */
+ 
+ function onError(error) {
+   if (error.syscall !== 'listen') {
+     throw error;
+   }
+ 
+   var bind = typeof port === 'string'
+     ? 'Pipe ' + port
+     : 'Port ' + port;
+ 
+   // handle specific listen errors with friendly messages
+   switch (error.code) {
+     case 'EACCES':
+       console.error(bind + ' requires elevated privileges');
+       process.exit(1);
+       break;
+     case 'EADDRINUSE':
+       console.error(bind + ' is already in use');
+       process.exit(1);
+       break;
+     default:
+       throw error;
+   }
+ }
+ 
+ /**
+  * Event listener for HTTP server "listening" event.
+  */
+ 
+ function onListening() {
+   var addr = server.address();
+   var bind = typeof addr === 'string'
+     ? 'pipe ' + addr
+     : 'port ' + addr.port;
+   debug('Listening on ' + bind);
+ }
+ 

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<meta charset="UTF-8">
+<title>MQTT Monitoring Service</title>
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+	var socket = io.connect();
+	var timer = null;
+	$(document).ready(function(){
+		socket.on("socket_evt_temp", function(data){
+			data = JSON.parse(data);
+			$(".mqttlist").html('<li>'+data.tmp+'C'+'</li>');
+		});
+		if(timer==null){
+			timer = window.setInterval("timer1()", 1000);
+		}
+	});
+	function timer1(){
+		socket.emit("socket_evt_temp", JSON.stringify({}));
+	}
+</script>
+</head>
+<body>
+MQTT Mornitoring Service
+	<div id="msg">
+		<div id="mqtt_logs">
+			<ul class="mqttlist"></ul>
+		</div>
+	</div>
+</body>
+</html>
+

@@ -1,0 +1,8 @@
+1. mongodb 실행
+2. mosqquitto -v실행
+3. Robo v3 실행 
+4. 이클립스 mqtt API 실행 
+5. vs code에서 npm start 로 서버 실행 
+6. http://127.0.0.1:3000/MQTT.html  -> 사이트 접속하면 보임 
+
+7. 내 아이피 보려면 cmd 에서 ipconfig 실행 
