@@ -1,0 +1,102 @@
+year = [2017,2018,2019,2020]
+person = [100,200,300,400,500,600]
+print(year.index(2019))
+
+
+fruits = ['사과','바나나','체리','포도','오렌지','딸기','멜론']
+##1::3 은 인덱스 몇인지 모를때
+print(fruits[-3:],fruits[1:7:3],fruits[1::3]) 
+
+a = [5,7,3]
+b = [3,9,1]
+
+c = a + b
+
+print(c)
+
+##이렇게 안하면 넌뜸,문자열은 문자열만, 숫자는 숫자만 있을때 정렬 사용할수있다.
+c.sort()
+print(c)
+
+##리스트에 들어있는지 없지 확인하는 방
+##검색하고싶을때 사용
+##account와 비슷 
+place = ['로마','파리','하노이']
+print('로마'in place)
+
+##[]를 빼줘야 문자열로 인식해서 처리함 . 조심하기 
+naver = '안녕하세요 나는 홍길동 입니다. 여행은 로마로 갈거에요'
+print('여행'in naver)
+
+##문자열도 sort시용해 a,b,c순서로 정렬시킬수 있다.
+name = ['john','anna','maria']
+name.sort()
+print(name)
+##국어도 정렬 가능. 근데 숫자나 다른 문자 섞여있으면 에러
+name1 = ['홍길동','자동차','쓰레기통']
+name1.sort()
+print(name1)
+
+list = ['seoul','daejon','deahu','bussan','jeju','chuncheon']
+place = ['로마','파리','베이징','뉴욕']
+
+print('인덱스 3부터 5까지 : ',list[3:6])
+print('인덱스 1부터 마지막까지 2씩 뛰면서 :  ',list[1::3])##마지막 알수 없을경우 이렇게 써도됨
+list.extend(place)
+print(list)
+print('파리가 place에 있는지 확인 : ','파리'in place)
+place.sort()
+print('place정렬 : ',place)
+list.sort()
+print('합친 list 정렬 -> 영문 한글 합쳐서',list)
+
+## for문에 그냥 리스트만큼 반복하고 i출력하면 모든list값이츌력 
+for i in list:
+    print(i)
+##while이용해서 길이만큼 출력
+list = ['busan','jeju','sokcho','deajeon']
+i = 0##초기값 꼭 있어야함 
+print('while 이용')
+
+while i < len(list):
+    print(list[i])
+    i = i + 1
+
+##for문에 리스트 직접넣어 i 로 사용,sum이용해서 리스트 합하기. 둘다 알아야함 
+
+total = 0##초기화 시켜줘야함 
+test = [75,90,66,100,50,60]
+for i in test:
+    total = total + i
+    ##i를 더해줘야 값이 들어감.  test(i)안
+
+print('total 값 : ',total)
+print('sum을써서 합하기 : ',sum(test))
+
+##평균구하기 sum함수와 len 함수 이용해서 구하기 
+print('평군 구하기 : ',sum(test)/len(test))
+
+##번호를 매길때 사용,sequence는 몇번부터 시작할것인지.
+list = ['부산','제주','속초','대전']
+for i,value in enumerate(list):
+    print(i,value)
+for i,value in enumerate(list,10):##10번부터 번호가 시
+    print(i,value)
+    
+##format 이용해서 찍기. 점('.')이라는걸 유의 (컴마' , '이거아님)
+##번호 다음에도 '.'이렇게 써줘야
+for i,value in enumerate(test,1):
+    print('번호{}.힉셍의 점수는 {}점 입니다.'.format(i,value))
+
+##enumerate와 format함수 이용해서 문제 풀기
+    
+print('for문이용해서 합격 불합격 나타내기')
+print('test 배열 다시 찍기',test)
+for i,value in enumerate(test,1):
+    if(value >= 70):
+        c = '합격'
+        print('번호{}.힉셍의 점수는 {}점 입니다.'.format(i,value),c)
+    else:
+        c = '불합격'
+        print('번호{}.힉셍의 점수는 {}점 입니다.'.format(i,value),c)
+        

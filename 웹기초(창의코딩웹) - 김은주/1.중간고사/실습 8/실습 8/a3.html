@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html><head><title>월을 출력</title></head>
+<body><script>
+
+var m;
+var num = parseInt(prompt("1~12월달을 입력하세요"));
+
+switch(num){
+case 1: m = "1월"; break;
+case 2: m = "2월";  break;
+case 3: m = "3월"; break;
+case 4: m = "4월"; break;
+case 5: m = "5월";  break;
+case 6: m = "6월";  break;
+case 7: m = "7월";  break;
+case 8: m = "8월";  break;
+case 9: m = "9월";  break;
+case 10: m = "10월";  break;
+case 11: m = "11월";  break;
+case 12: m = "12월";  break;
+default : m = "잘못입력하셨습니다.다시 입력하세요";
+}
+
+if(num >= 1 && num <= 12)
+	m = num + "월은  [" + m +"]"+ "입니다";
+
+alert(m);
+
+</script></body></html>

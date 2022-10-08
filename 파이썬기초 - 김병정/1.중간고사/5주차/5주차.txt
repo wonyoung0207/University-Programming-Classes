@@ -1,0 +1,120 @@
+math = int(input("수학점수"))
+english = int(input("영어점수"))
+
+avg = (math + english) / 2
+
+
+if avg >= 80:
+    print("합격")
+
+else:
+    print("불합격 입니다.")
+    
+=====================================================================
+num = int(input("숫자 입력"))
+
+if num >= 90:
+    print("A")
+elif num >= 80:
+    print("B")
+elif num >= 70:
+    print("C")
+elif num >= 60:
+    print("D")
+elif num < 0:
+    print("음수 잘못입력")
+else:
+    print("불합격")
+       
+=============================================================
+실습 1번
+num = int(input("숫자 입력"))
+
+if num%2 == 0:
+    print("짝수")
+else:
+    print("홀수")
+
+=========================================================
+실습2번
+num = int(input("숫자 입력"))
+
+if num % 2 == 0 and num % 3 ==0:
+    print("나누어짐")
+else:
+    print("나누어지지않음")
+==================================================================
+실습 3번
+a = 5
+b = 3
+
+c = input("연산자 :")
+if c == '+':
+    print(a+b)
+elif c == '-':
+    print(a-b)
+elif c == '*':
+    print(a*b)
+elif c == '/':
+    print(a/b)
+else:
+    print("잘못입력.다시입력")
+==============================================================
+실습 4번
+import math
+
+
+ph = int(input("ph :"))
+
+if ph >= 0 and ph <= 4:
+    print("강산성")
+elif ph >=5 and ph <= 6:
+    print("약산성")
+elif ph == 7:
+    print("중성")
+elif ph >= 8 and ph <= 9:
+    print("약염기성")
+elif ph >= 10 and ph <= 14:
+    print("강염기성")
+else:
+    print("지수 범위가 아님")
+======================================================
+실습 5번
+import math
+
+
+year = int(input("년도: "))
+
+if year % 4 == 0 and year % 100 != 0:
+    print("윤년")
+elif year % 100 == 0 and year % 400 == 0:
+    print("윤년")
+else:
+    print("평년")
+
+==========================================
+실습 6번
+#키와 몸무게를 입력 받아 체질량지수를 계산하여 출력
+#몸무게 / 키
+
+height = int(input(" 키(cm) : "))
+weight = int(input(" 몸무게(kg) : "))
+
+rehe = height / 100
+
+bmi = weight / (rehe*rehe)
+
+if(bmi >= 35):
+    print("고도비만")
+elif(bmi >=30):
+    print("중등도비만")
+elif(bmi >=25):
+    print("경도비만")
+elif(bmi >=23):
+    print("과체중")
+elif(bmi >=18.5):
+    print("정상")
+else:
+    print("저체중")
+
+

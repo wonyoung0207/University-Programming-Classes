@@ -1,0 +1,51 @@
+##기말에 이 4문제 나옴
+##배열에 값 넣기 
+list = []
+for i in range(1,31):
+    list.append(i);
+print(list)
+
+
+##배열에 제곱값 넣기 
+list = []
+for i in range(1,21):
+    list.append(i**2);
+print(list)
+
+
+##배열에 자기 자신 까지 더해서 넣
+list = []
+a = 0
+for i in range(1,11):
+    a = i + a
+    list.append(a);
+print(list)
+
+
+##배열에 팩토리얼 값 계산해서 넣기 
+list = []
+a = 1
+for i in range(1,11):
+    a = i * a
+    list.append(a);
+print(list)
+
+##구구단 만들기
+dan = 3
+for i in range(1,11):
+    print('{}*{}={}'.format(dan,i,dan*i))
+ 
+for i in range(1,10):
+    print('2 *',i,'=',2*i)
+
+##전체 구구단 출력 
+for dan in range(1,11):##여기서 어차피dan초기화되고 1부터 시작됨 
+    for j in range(1,11):
+        print('{}*{}={}'.format(dan,j,dan*j))
+    
+
+## 옆으로 출력
+for dan in range(1,11):
+    for j in range(1,11):
+        print('{}*{}={} '.format(dan,j,dan*j),end ='')
+    

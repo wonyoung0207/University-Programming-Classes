@@ -1,0 +1,112 @@
+sum = 0
+
+for i in range(1,101):
+    sum = sum+i
+    
+print("모든수  : ",sum)
+
+################
+
+
+sum = 0
+
+for i in range(1,101):
+    if(i % 2== 0):
+        sum = sum + i
+        
+print("2의 배수 : ",sum) 
+
+###################
+
+
+sum = 0
+
+for i in range(1,101):
+    if(i % 3== 0):
+        sum = sum + i
+        
+print("3의 배수 : ",sum) 
+
+###################
+
+for i in range(1,7):
+    for j in range(1,i):
+        print("*",end = "")
+    print()
+    
+####################
+##이거 어려움 
+def factorial(n):
+    sum = 1
+    for i in range(1,n+1):
+        sum = sum * i
+    return sum
+
+n = int(input("n factorial 값을 구하기 위한 정수 n 을 입력하세요"))
+print(n)
+print(n,"! = ",factorial(n))
+
+######################
+##and 쓰는거 주의 
+def value(k,m):
+    avg = 0
+    avg = (k - 100)*0.9##표쥰체중
+    havy = (m - avg)/(avg*100)
+
+    if(havy < -20):
+        a = "저체중"
+        return a
+    elif(havy < 20):
+        a = "정상"
+        return a
+    elif(havy >= 20 and havy <= 30):
+        a = "경도비만"
+        return a
+    elif(havy > 30 and havy <= 50):
+        a = "중도비만"
+        return a
+    elif(havy >= 50):
+        a = "고도비만"
+        return a
+    
+
+k = int(input("키를 입력하세요 : "))
+m = int(input("몸무개를 입력하세요"))
+
+print("비만 정도는",value(k,m),"입니다.")
+
+
+####################
+import math## 이거 순서 햇갈리지 않기 
+
+def vupi(h,r):
+    v = (1/3)*math.pi*math.pow(r,2)*h
+    return v
+
+h = 0
+v = 0
+r = 0
+h = int(input("원뿔의 높이를 입력"))
+r = int(input("반지름을 입력"))
+print("원뿔의 부피는 : ", vupi(h,r),"입니다.")
+
+#####################
+a = [4,3,1,2,5,6,8,9,7,10]
+a.sort()
+print("리스트 a를 오름차순으로 정렬",a)
+#####################
+##슬라이스 하는 문제 햇갈림.
+
+print(a[1:6])##인덱스로 계산해서 이렇게 하면 인덱스 1부터 5까지만 나옴
+print(a[-1:])##인덱스 제일 끝원소부터 끝까지 
+print( a[:3])##인덱스 0번부터 3번째 전까지 원소값 나옴
+print(a[5:])##5번째부터 마지막까지 원소 나옴
+
+####################
+a = ['G','G','G','G','A','A','T','T','A','T']
+
+a.reverse()
+print(a)
+
+
+

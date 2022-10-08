@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html><head><title>1부터 100까지 while을 이용한 배수와 배수의 합을 출력</title></head>
+<body>
+<script>
+var i,a,max	//while 은 초기값 꼭 써줘야됨
+var num = 0;
+var cnt = 0;
+
+i = parseInt(prompt("초기값을 입력하세요.","0"));
+max = parseInt(prompt("최좋값을 입력하세요","0"));
+a = parseInt(prompt("배수값을 입력하세요","0"));
+
+while( i <= max){
+	if(i % a == 0){
+	document.write(i +"  ");
+	num += i;
+	cnt++;
+	}
+	i++;
+}	
+
+document.write("<br>");
+document.write( a + "의 배수의 합은 = "+ num + "입니다."+"<br>");
+document.write(a + "배수의 갯수는 "+ cnt + "개입니다.");
+</script><body></html>

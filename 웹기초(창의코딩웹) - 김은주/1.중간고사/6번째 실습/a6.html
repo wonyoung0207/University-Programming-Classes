@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html><head><title>1부터 100까지 while을 이용한 배수와 배수의 합을 출력</title></head>
+<body>
+<script>
+var i = 1;	//while 은 초기값 꼭 써줘야됨
+var num = 0;
+var a;
+a = prompt("0보다 큰 정수를 입력하세요","0");
+
+while( i <= 100){
+	if(i % a == 0){
+	document.write(i +"  ");
+	num += i;
+	}
+	i++;
+}	
+
+
+document.write("<br>");
+document.write( a + "의 배수의 합은 = "+ num + "입니다.");
+
+</script><body></html>

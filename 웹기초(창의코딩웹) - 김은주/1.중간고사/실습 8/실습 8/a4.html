@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html><head><title>배열을 이용한 월 출력</title></head>
+<body><script>
+
+var arr = ["1월","2월","3월","4월","5월","6월","7월","8월","9월","10월","11월","12월"];
+var num = parseInt(prompt("1~12월달을 입력하세요"));
+
+if(num >= 1 && num <= 12)
+	arr = num + "월은  [" + (arr[num-1]) + " ]입니다";
+else
+	arr = "월을 잘못 입력하셨습니다."
+
+document.write(arr[num]);
+
+</script></body></html>

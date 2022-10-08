@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html><head><title>배열을 이용한 월 출력</title></head>
+<body><script>
+var arr = new Array();
+var num = prompt("입력할 인원의 수를 입력하세요");
+
+for(i = 0; i < num ; i++)
+	arr[i] = prompt( i+1 + "/" + num + "번쨰 이름을 입력하세요");
+
+for(j = 0; j < arr.length; j++)
+	document.write("입력하신 당신의 이름은" + arr[j] + "입니다." + "<br>");
+
+
+</script></body></html>
