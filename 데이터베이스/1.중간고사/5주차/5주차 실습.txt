@@ -1,0 +1,54 @@
+
+select a.name as 교수, b.name as 학생	-> instructor.name 의 별칭을 '교수' 로 설정
+from instructor a,Student b	-> a를 instructor 의 별칭으로 지정, b 를 Student 의 별칭으로 지정
+where a.dept_name = b.dept_name
+order by 교수
+
+================================
+select a.name as 교수, b.name as 학생
+from instructor a LEFT JOIN student b	->왼쪽테이블이 기준이되서 비교.
+on a.dept_name = b.dept_name	->where 과 같은 기능으로 조건을 말함.
+order by 교수	-> 정렬 한다.
+===================================
+Union -> 두개의 커리 결과를 하나로 합쳐서 사용하고자 할때(불완전한 기능임)
+select * from instructor where dept_name = 'Com.Sci.'
+Union ALL
+select * from student where dept_name = 'Com.Sci.'
+======================================
+서브쿼리 이용
+select name,salary
+from instructor
+where dept_name in	->조건이 두개인거랑 비슷 . 서브쿼리student 에서 dept_name 이 'F'로 시작하는 걸 뽑아서
+뽑은것과 메인쿼리의 dept_name 를 비교해서 같은걸 출력
+(select dept_name
+from student
+where dept_name Like 'F%')
+========================================
+exists -> 결과값이 true 면 결과값 다 출력 하고 결과값이 false 면 반환 안한다.
+select name,salary
+from instructor
+where Exists
+(select dept_name
+from student
+where dept_name Like 'F%')
+=============================================
+if문 사용 
+if (select AVG(gread) from Cread) >= 65	->cread 클래스의gread 평균 이 65점 이상인 것만 
+begin		-> 시작.
+	select *
+	from course			-> course 에 있는 값들을 다 불러와라
+End		->끝
+else
+	print '분반 평균 성적이 65점 아래 입니다.'
+===============================================
+case 문 사용
+select name,		-> from 절은 마지막에. name 뒤에 , 꼭 써줘야함.
+	case salary
+	when '90000' then 'A+'		-> 딱 90000 인 값만 출력 .
+	when '80000' then 'A'
+	when '75000' then 'B+'
+	when '65000' then 'B'
+	when '62000' then 'C+'
+	when '40000' then 'C'
+end as 연봉등급			-> 결과값을 저장하는 컬럼을 만든다.
+from instructor

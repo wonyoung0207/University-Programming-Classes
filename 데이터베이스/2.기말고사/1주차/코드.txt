@@ -1,0 +1,58 @@
+--뷰 만들기
+
+create view physics_fall_2009 as
+select course.course_id,sec_id,building,room_number
+from course,section
+where course.course_id = section.course_id
+	and course.dept_name = 'physics'
+	and section.semester = 'fall'
+	and section.year = '2009'
+=================================================
+--저장 프로시저 만들기.
+--장점:네트워크 통신량 감소,재사용성 증가, 에러감소및 보안 강화
+--트리거와 차이점 : 매개변수 사용가능
+--프로시저이름 advisor_info, 매개변수 @ad_name
+
+CREATE PROCEDURE advisor_info @ad_name varchar(20) AS
+BEGIN
+SELECT instructor.*,student.* 
+FROM instructor INNER JOIN advisor ON instructor.ID = advisor.I_ID 
+INNER JOIN
+		 student on student.ID = advisor.S_ID 
+WHERE instructor.name = @ad_name 
+END
+=====================================================
+--프로시저 이용해서 변수 주기,singh 라는 이름을가진사람의 데이터 찾아오기
+
+exec advisor_info @ad_name = 'Singh'
+=======================================================
+--트리거 생성
+CREATE TRIGGER trg_view	--트리거 이름
+ON Instructor  
+FOR UPDATE 		--instructor 테이블에서 update하면 실행
+AS 
+SELECT * FROM physics_fall_2009	--뷰이름
+===================================================
+--인덱스 생성,table 이름은 Hallym
+alter table Hallym
+add constraint PK_Hallym PRIMARY KEY (cust_id)
+GO
+================================================
+--인덱스 존재 알고 싶을때 사용
+sp_helpindex Hallym
+==============================================
+--클러스터로 인덱스 이름 만들기
+--클러스터보다 넌 클러스터가 훨씬더 간단하다.
+--클러스터는 페이지 찾아서 그안에서 값을 찾는거고, 
+--넌클러스터는 한번에 데이터를 찾을수있다.
+
+CREATE INDEX idx1 ON Hallym(cust_id)
+==============================================
+--넌클러스터로 인덱스 만들기
+CREATE CLUSTERED INDEX idx2 ON Hallym(cust_id)
+=============================================
+--유니크로 인덱스 만들기. 유니크 쓸때는 항상 인덱스 맨앞에 와야됨
+--유니크한 넌 클러스터가 만들어진다.
+CREATE UNIQUE INDEX idx2 ON Hallym(cust_id)
+
+

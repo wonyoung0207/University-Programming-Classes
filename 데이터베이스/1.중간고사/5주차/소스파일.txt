@@ -1,0 +1,106 @@
+TAKES 테이블 만들기 소스
+create table TAKES(
+ID varchar(50) NOT NULL,
+Course_ID varchar(50) NOT NULL,
+Sec_ID varchar(50) not null,
+Semester varchar(50) not null,
+Year varchar(50) not null,
+gread varchar(50) not null,
+)
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Year,gread)
+values('00128','CS-101','1','Fall','2009','A')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Year,gread)
+values('00128','CS-347','1','Fall','2009','A-')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Year,gread)
+values('12345','CS-101','1','Fall','2009','C')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Year,gread)
+values('12345','CS-190','2','Spring','2009','A')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Year,gread)
+values('12345','CS-315','1','Spring','2010','A')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Year,gread)
+values('12345','CS-347','1','Fall','2009','A')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Year,gread)
+values('19991','HIS-351','1','Spring','2010','B')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Year,gread)
+values('23121','FIN-201','1','Spring','2010','C+')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Year,gread)
+values('44553','PHY-101','1','Fall','2009','B-')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Year,gread)
+values('45678','CS-101','1','Fall','2009','F')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Year,gread)
+values('45678','CS-101','1','Spring','2010','B+')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Year,gread)
+values('45678','CS-319','1','Spring','2010','B')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Year,gread)
+values('54321','CS-101','1','Fall','2009','A-')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Year,gread)
+values('54321','CS-190','2','Spring','2009','B+')
+------------------------------------------------------------
+teaches테이블 소스 -> 있던 테이블 지우고 넣기
+create table Teaches(
+id varchar(50) NOT NULL,
+Course_id varchar(50) NOT NULL,
+Sec_id varchar(50) not null,
+Semester varchar(50) not null,
+Years varchar(50) not null,
+)
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Years)
+values('10101','CS-101','1','Fall','2009')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Years)
+values('10101','CS-315','1','Spring','2010')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Years)
+values('10101','CS-347','1','Fall','2009')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Years)
+values('12121','FIN-201','1','Spring','2010')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Years)
+values('15151','MU-199','1','Spring','2010')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Years)
+values('22222','PHY-101','1','Fall','2009')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Years)
+values('32343','HIS-351','1','Spring','2010')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Years)
+values('45565','CS-101','1','Spring','2010')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Years)
+values('45565','CS-319','1','Spring','2010')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Years)
+values('76766','BIO-101','1','Summer','2009')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Years)
+values('76766','BIO-301','1','Summer','2010')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Years)
+values('83821','CS-190','1','Spring','2009')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Years)
+values('83821','CS-190','2','Spring','2009')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Years)
+values('83821','CS-319','2','Spring','2010')
+insert into TAKES(ID,Course_ID,Sec_ID,Semester,Years)
+values('98345','EE-181','1','Spring','2009')
+----------------------------------------------------
+1번
+select a.id as 학생,b.id as 기타학생
+from Student a left join takes b
+on a.id = b.id
+order by 학생
+================================================
+2번
+select semester
+from teaches
+where course_id LIKE 'C%' and years = '2009'
+
+====================================================
+3번
+if salary >= '70000'
+begin
+	select name,dept_name
+	from instructor
+end
+else
+	print'연봉이 70000 이상인 교수가 없습니다.'
+===================================================
+4번
+select name,salary,
+	case
+	when salary >= 60000 then salary * 1.03
+	when salary < 60000 then salary * 1.05
+end as 연봉인상
+from instructor
+
